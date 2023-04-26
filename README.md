@@ -1,8 +1,8 @@
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Righteous&size=25&pause=400&color=FF029C&multiline=true&width=680&height=150&lines=Hola!+%F0%9F%91%8B+Soy+ferJen)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Righteous&size=40&pause=1000&color=F71A92&vCenter=true&repeat=false&width=500&height=70&lines=Hola!+%F0%9F%91%8B+Soy+Fernanda)](https://git.io/typing-svg)
 
 ---
-Este es el repo de backend-43345 @Coderhouse 😁
+### Este es mi repo de backend-43345 @Coderhouse 😁
 
 ---
 
