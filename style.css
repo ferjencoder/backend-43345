@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 :root {
     --clr-black-400: #202124;
-    --clr-magenta-800: #b0235f;
-    --clr-magenta-700: #c53762;
-    --clr-magenta-600: #d84a64;
-    --clr-magenta-500: #ea5e66;
-    --clr-magenta-400: #fa7268;
+    --clr-yellow-400: #fbae3c;
+    --clr-blue-400: #4e6fd8;
+    --clr-green-400: #5ba04d;
+    --clr-magenta-300: #ff95bb;
+    --clr-magenta-400: #ff83a5;
+    --clr-magenta-500: #ff7190;
+    --clr-magenta-600: #ff5e7b;
+    --clr-magenta-700: #f74a75;
+    --clr-magenta-800: #e6207a;
+    --clr-orange-400: #ff7268;
+    --clr-pink-400: #ff2b8a;
+    --clr-purple-400: #d171f6;
+    --clr-purple-500: #bc4ce4;
+    --clr-violet-400: #7a23d1;
 }
 
 /* Reset.css */
-
 /* Box sizing rules */
 *,
 *::before,
@@ -40,17 +50,11 @@ ul {
 /* Set default font size and family */
 body {
     font-size: 1rem;
-    font-family: sans-serif;
-}
-
-/* Set default background and text color */
-body {
+    font-family: 'Righteous', cursive;
+    /* Set default background and text color */
     background-color: white;
     color: black;
-}
-
-/* Set default line height */
-body {
+    /* Set default line height */
     line-height: 1.5;
 }
 
@@ -71,17 +75,9 @@ embed {
 
 body {
     background-color: #202124;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/* //////////////////////////////////////////////////// */
-/* ADDED */
-/* //////////////////////////////////////////////////// */
-
-h1 {
-    color: var(--clr-magenta-400);
-    font-size: 4rem;
+    align-content: center;
+    flex-direction: column;
 }

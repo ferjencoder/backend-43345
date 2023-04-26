@@ -12,5 +12,6 @@
     "statusBar.activeForeground": "#fff",
     "statusBar.foreground": "#061D1C",
     "statusBar.inactiveForeground": "#061D1C"
-  }
+  },
+  "liveServer.settings.port": 5501
 }
