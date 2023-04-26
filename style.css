@@ -1,0 +1,87 @@
+:root {
+    --clr-black-400: #202124;
+    --clr-magenta-800: #b0235f;
+    --clr-magenta-700: #c53762;
+    --clr-magenta-600: #d84a64;
+    --clr-magenta-500: #ea5e66;
+    --clr-magenta-400: #fa7268;
+}
+
+/* Reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default padding and margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Set default font size and family */
+body {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+/* Set default background and text color */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Set default line height */
+body {
+    line-height: 1.5;
+}
+
+/* Remove default border */
+img,
+iframe,
+video,
+embed {
+    border: none;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #202124;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* //////////////////////////////////////////////////// */
+/* ADDED */
+/* //////////////////////////////////////////////////// */
+
+h1 {
+    color: var(--clr-magenta-400);
+    font-size: 4rem;
+}
