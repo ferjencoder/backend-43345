@@ -1,7 +1,5 @@
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&pause=0&vCenter=true&multiline=true&width=700&height=90&lines=Hola!👋+Soy+ferJen)](https://git.io/typing-svg)
-
-<!-- [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&pause=0&vCenter=true&multiline=true&width=700&height=90&lines=Hola!👋+Soy+ferJen)](https://git.io/typing-svg) -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Righteous&size=25&pause=400&color=FF029C&multiline=true&width=680&height=150&lines=Hola!+%F0%9F%91%8B+Soy+ferJen)](https://git.io/typing-svg)
 
 ---
 Este es el repo de backend-43345 @Coderhouse 😁
