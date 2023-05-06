@@ -14,20 +14,21 @@ Los ejercicios se encuentran en la carpeta "desafios-entregables" con un archivo
 Estructura de Carpetas
 ├── src
 │   ├── desafios-entregables
-│   │   ├── 01-desafio.js
-│   │   └── 01-desafio.md
+│   │   ├── 02-desafio.js
+│   │   └── 02-desafio.md
 ```
 ---
 
 ## Pruebas
 
-La aplicación fue probada utilizando Jest, un marco de pruebas de JavaScript. Se realizaron las siguientes pruebas:
+La aplicación "fue probada" utilizando Jest. 
+Por alguna razón Jest entra en loop y no puedo probar ProductManager... **toBeContinued...**
 
-**Método addProduct**: Se probó agregando un nuevo producto con todos los campos requeridos y verificando que se agregara a la lista de productos. También se probó agregando un producto con un código repetido, lo que debería arrojar un error.
-
-**Método getProducts**: Se probó llamando al método después de agregar un nuevo producto y verificando que el producto apareciera en la lista de productos.
-
-**Método getProductById**: Se probó llamando al método con un ID de producto existente y verificando que se devolviera el producto correcto. 
-También se probó llamando al método con un ID de producto inexistente, lo que debería devolver un error.
-
-Puede ejecutar las pruebas usted mismo instalando las dependencias necesarias con yarn install y luego ejecutando yarn test.
+```
+Estructura de Carpetas
+├── tests
+│   ├── desafios-entregables
+│   │   ├── 01-desafio.test.js
+│   │   └── 02-desafio.test.js
+```
+---
