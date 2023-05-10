@@ -1,7 +1,7 @@
 {
-  "type": "module",
   "name": "backend-43345",
   "version": "1.0.0",
+  "type": "module",
   "description": "Backend 2023",
   "main": "app.js",
   "devDependencies": {

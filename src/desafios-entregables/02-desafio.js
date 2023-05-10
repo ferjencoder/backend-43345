@@ -1,5 +1,7 @@
 
 
+// const fs = requiere( 'fs' );
+
 import fs from 'fs';
 
 const path = './Products.json';
@@ -15,6 +17,9 @@ export default class ProductManager {
             const data = await fs.promises.readFile( path, 'utf-8' );
 
             const productsJSON = JSON.parse( data );
+
+            // comment
+            this.products = productsJSON;
 
             return productsJSON
         } else {
@@ -89,8 +94,11 @@ export default class ProductManager {
         stock
     ) => {
         const storedProductIndex = this.products.findIndex(
-            ( product ) => product.id === id
+            ( product ) => product.code === code
         );
+
+        console.log( storedProductIndex );
+
 
         if ( storedProductIndex === -1 ) {
             console.error( `Msg from ferJen: Product not found` );
@@ -114,44 +122,56 @@ export default class ProductManager {
             JSON.stringify( this.products, null, '\t' )
         );
 
+        console.log( 'updatedProduct', updatedProduct );
+
+
         return updatedProduct;
     };
 };
 
-// const productManager = new ProductManager();
-// productManager.addProduct(
-//     'producto prueba',
-//     'Este es un producto prueba',
-//     200,
-//     'Sin imagen',
-//     'abc123',
-//     25
-// );
-// productManager.addProduct(
-//     'producto prueba',
-//     'Este es un producto prueba',
-//     200,
-//     'Sin imagen',
-//     'abc123',
-//     25
-// );
-// productManager.addProduct(
-//     'producto prueba uno',
-//     'Este es un producto prueba uno',
-//     205,
-//     'Sin imagen uno',
-//     'abc123 uno',
-//     35
-// );
-// productManager.addProduct(
-//     'producto prueba dos',
-//     'Este es un producto prueba dos',
-//     210,
-//     'Sin imagen dos',
-//     'abc123 dos',
-//     45
-// );
+const productManager = new ProductManager();
+productManager.addProduct(
+    'producto prueba',
+    'Este es un producto prueba',
+    200,
+    'Sin imagen',
+    '2323223',
+    25
+);
+productManager.addProduct(
+    'producto prueba',
+    'Este es un producto prueba',
+    200,
+    'Sin imagen',
+    'abc123',
+    25
+);
+productManager.addProduct(
+    'producto prueba uno',
+    'Este es un producto prueba uno',
+    205,
+    'Sin imagen uno',
+    'abc123 uno',
+    35
+);
+productManager.addProduct(
+    'producto prueba dos',
+    'Este es un producto prueba dos',
+    210,
+    'Sin imagen dos',
+    'abc123 dos',
+    45
+);
 
-// console.log( 'Product found =>', productManager.getProductById( 1 ) );
-// console.log( 'Products in store =>', productManager.getProducts() );
-// console.log( productManager.getProductById( 85 ) );
+productManager.updateProduct(
+    'producto prueba',
+    'Este es un producto pruebaaaaa',
+    8550,
+    'Sin imagen',
+    '2323223',
+    1225
+);
+
+console.log( 'Product found =>', productManager.getProductById( 1 ) );
+console.log( 'Products in store =>', productManager.getProducts() );
+console.log( productManager.getProductById( 85 ) );
