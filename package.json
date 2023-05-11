@@ -15,5 +15,8 @@
     "test": "jest --watchAll --verbose"
   },
   "author": "ferJen",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
