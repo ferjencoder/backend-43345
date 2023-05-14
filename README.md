@@ -10,6 +10,8 @@
 
 Los ejercicios se encuentran en la carpeta "desafios-entregables" con un archivo en markdown con las instrucciones del ejercicio y un archivo de JavaScript con la resolución.
 
+Actualmente en entrega de desafío 03:
+
 ```
 Estructura de Carpetas
 ├── src
@@ -22,7 +24,6 @@ Estructura de Carpetas
 ## Pruebas
 
 La aplicación "fue probada" utilizando Jest. 
-Por alguna razón Jest entra en loop y no puedo probar ProductManager... **toBeContinued...**
 
 ```
 Estructura de Carpetas
