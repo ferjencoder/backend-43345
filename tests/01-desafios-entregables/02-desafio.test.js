@@ -1,6 +1,6 @@
 
 
-import ProductManager from '../../src/desafios-entregables/02-desafio';
+import ProductManager from '../../src/00-desafios-entregables/02-desafio/02-desafio';
 
 
 describe( 'Pruebas en 02-desafio.js', () => {

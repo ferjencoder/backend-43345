@@ -1,0 +1,69 @@
+:root {
+    --clr-black-400: #202124;
+    --clr-yellow-400: #fbae3c;
+    --clr-blue-400: #4e6fd8;
+    --clr-green-400: #5ba04d;
+    --clr-magenta-300: #ff95bb;
+    --clr-magenta-400: #ff83a5;
+    --clr-magenta-500: #ff7190;
+    --clr-magenta-600: #ff5e7b;
+    --clr-magenta-700: #f74a75;
+    --clr-magenta-800: #e6207a;
+    --clr-orange-400: #ff7268;
+    --clr-pink-400: #ff2b8a;
+    --clr-purple-400: #d171f6;
+    --clr-purple-500: #bc4ce4;
+    --clr-violet-400: #7a23d1;
+}
+
+main {
+    height: 100vh;
+}
+
+/* ///////// */
+/* ADDED */
+/* ///////// */
+
+.clr-primary {
+    color: var(--clr-magenta-800);
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: var(--clr-orange-400);
+    font-size: 4rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+}
+
+h3 {
+    color: var(--clr-purple-400);
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+}
+
+.blob {
+    margin: 2rem;
+    position: relative;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.icon-arrow {
+    position: absolute;
+}

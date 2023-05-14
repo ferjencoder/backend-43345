@@ -12,11 +12,16 @@
     "jest": "^29.5.0"
   },
   "scripts": {
-    "test": "jest --watchAll --verbose"
+    "test": "jest --watchAll --verbose",
+    "runmon": "nodemon src/01-desafios-entregables/03-desafio/server.js"
   },
   "author": "ferJen",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
     "nodemon": "^2.0.22"
   }
 }

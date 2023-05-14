@@ -1,10 +1,8 @@
 
 
-// const fs = requiere( 'fs' );
-
 import fs from 'fs';
 
-const path = './Products.json';
+const path = './products.json';
 
 export default class ProductManager {
 

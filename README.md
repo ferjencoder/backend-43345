@@ -13,9 +13,9 @@ Los ejercicios se encuentran en la carpeta "desafios-entregables" con un archivo
 ```
 Estructura de Carpetas
 ├── src
-│   ├── desafios-entregables
-│   │   ├── 02-desafio.js
-│   │   └── 02-desafio.md
+│   ├── 01-desafios-entregables
+│   │   ├── 03-desafio.js
+│   │   └── 03-desafio.md
 ```
 ---
 
@@ -27,8 +27,8 @@ Por alguna razón Jest entra en loop y no puedo probar ProductManager... **toBeC
 ```
 Estructura de Carpetas
 ├── tests
-│   ├── desafios-entregables
-│   │   ├── 01-desafio.test.js
-│   │   └── 02-desafio.test.js
+│   ├── 01-desafios-entregables
+│   │   ├── 02-desafio.test.js
+│   │   └── 03-desafio.test.js
 ```
 ---

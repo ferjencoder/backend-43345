@@ -16,6 +16,27 @@
     --clr-purple-400: #d171f6;
     --clr-purple-500: #bc4ce4;
     --clr-violet-400: #7a23d1;
+
+    --fs-xxxs: 0.5em;
+    --fs-xxs: 0.6em;
+    --fs-xs: 0.75em;
+    --fs-sm: 1em;
+    --fs-md: 1.2em;
+    --fs-lg: 1.5em;
+    --fs-xl: 2em;
+    --fs-xxl: 3em;
+    --fs-xxxl: 4em;
+
+    --lh-xxxs: 0.5em;
+    --lh-xxs: 0.6em;
+    --lh-xs: 0.75em;
+    --lh-sm: 1em;
+
+    --ls-xxxs: 0.1em;
+    --ls-xxs: 0.15em;
+    --ls-xs: 0.2em;
+    --ls-sm: 0.25em;
+
 }
 
 /* Reset.css */
@@ -80,4 +101,157 @@ body {
     align-items: center;
     align-content: center;
     flex-direction: column;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.fs-xxxs {
+    font-size: var(--fs-xxxs);
+}
+
+.fs-xxs {
+    font-size: var(--fs-xxs);
+}
+
+.fs-xs {
+    font-size: var(--fs-xs);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs-xxxl {
+    font-size: var(--fs-xxxl);
+}
+
+.clr-primary {
+    color: var(--clr-magenta-800);
+}
+
+.clr-secondary {
+    color: var(--clr-orange-400);
+}
+
+.clr-purple {
+    color: var(--clr-purple-500);
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.mt-2 {
+    margin-top: 1.5em;
+}
+
+.mt-3 {
+    margin-top: 2em;
+}
+
+.mt-4 {
+    margin-top: 2.5em;
+}
+
+.mt-5 {
+    margin-top: 3em;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.mb-2 {
+    margin-bottom: 1.5em;
+}
+
+.mb-3 {
+    margin-bottom: 2em;
+}
+
+.mb-4 {
+    margin-bottom: 2.5em;
+}
+
+.mb-5 {
+    margin-bottom: 3em;
+}
+
+
+.pt-1 {
+    padding-top: 1em;
+}
+
+.pt-2 {
+    padding-top: 1.5em;
+}
+
+.pt-3 {
+    padding-top: 2em;
+}
+
+.pt-4 {
+    padding-top: 2.5em;
+}
+
+.pt-5 {
+    padding-top: 3em;
+}
+
+.pb-1 {
+    padding-bottom: 1em;
+}
+
+.pb-2 {
+    padding-bottom: 1.5em;
+}
+
+.pb-3 {
+    padding-bottom: 2em;
+}
+
+.pb-4 {
+    padding-bottom: 2.5em;
+}
+
+.pb-5 {
+    padding-bottom: 3em;
+}
+
+.ls-xxxs {
+    letter-spacing: var(--ls-xxxs);
+}
+
+.ls-xxs {
+    letter-spacing: var(--ls-xxs);
+}
+
+.ls-xs {
+    letter-spacing: var(--ls-xs);
+}
+
+.ls-sm {
+    letter-spacing: var(--ls-sm);
 }
