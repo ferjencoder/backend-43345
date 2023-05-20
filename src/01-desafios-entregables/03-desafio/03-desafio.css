@@ -67,3 +67,8 @@ h3 {
 .icon-arrow {
     position: absolute;
 }
+
+.code__text {
+    height: 50vh;
+    overflow-y: scroll;
+}

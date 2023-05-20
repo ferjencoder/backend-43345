@@ -5,7 +5,11 @@
         "category": "Dynamic Forms",
         "shortDescription": "A simple login form.",
         "description": "A basic login form with email and password fields, and validation. Built with React, it includes basic form validation using React Hook Form.",
-        "imageUrl": "/images/basic-login-form.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/basic-login-form",
         "techStack": [
             "React",
@@ -20,7 +24,11 @@
         "category": "Dynamic Forms",
         "shortDescription": "An elaborate registration form.",
         "description": "An advanced registration form with various field types, tooltips, and validation. This form has been created using React and Formik, and includes extensive form validation and error messages.",
-        "imageUrl": "/images/advanced-registration-form.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/advanced-registration-form",
         "techStack": [
             "React",
@@ -35,7 +43,11 @@
         "category": "Data Tables",
         "shortDescription": "A simple data table.",
         "description": "A basic data table with sorting and pagination. Built with React, it is ideal for displaying any data in a tabular format with the option to sort and paginate through the data.",
-        "imageUrl": "/images/basic-data-table.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/basic-data-table",
         "techStack": [
             "React"
@@ -49,7 +61,11 @@
         "category": "Data Tables",
         "shortDescription": "A feature-rich data table.",
         "description": "An advanced data table with sorting, filtering, pagination, and row selection. Built with React and Material-UI, it offers a wide range of functionalities that can handle complex data table requirements.",
-        "imageUrl": "/images/advanced-data-table.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/advanced-data-table",
         "techStack": [
             "React",
@@ -64,7 +80,11 @@
         "category": "Charts/Graphs",
         "shortDescription": "A simple bar chart.",
         "description": "A basic bar chart for data visualization. Built with React and Chart.js, this component provides an easy way to visualize data in a bar chart format.",
-        "imageUrl": "/images/basic-bar-chart.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/basic-bar-chart",
         "techStack": [
             "React",
@@ -79,7 +99,11 @@
         "category": "Charts/Graphs",
         "shortDescription": "A multi-dataset line graph.",
         "description": "An advanced line graph with multiple datasets. Built with React and Chart.js, this component allows you to visualize multiple sets of data on a single graph.",
-        "imageUrl": "/images/advanced-line-graph.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/advanced-line-graph",
         "techStack": [
             "React",
@@ -94,7 +118,11 @@
         "category": "Interactive Maps",
         "shortDescription": "A location pinpoint map.",
         "description": "A simple map displaying a location. Built with React and Leaflet, this component allows you to display any location on a map with a marker.",
-        "imageUrl": "/images/simple-location-map.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/simple-location-map",
         "techStack": [
             "React",
@@ -109,7 +137,11 @@
         "category": "Interactive Maps",
         "shortDescription": "A map with multiple markers.",
         "description": "An interactive map with multiple markers and information popups. Built with React and Leaflet, this component can be used to display multiple locations on a map, each with its own information popup.",
-        "imageUrl": "/images/interactive-map.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/interactive-map",
         "techStack": [
             "React",
@@ -124,7 +156,11 @@
         "category": "Authentication Components",
         "shortDescription": "A basic sign in form.",
         "description": "A sign in form with email and password fields. Built with React, it includes basic form validation and error handling.",
-        "imageUrl": "/images/sign-in-form.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/sign-in-form",
         "techStack": [
             "React",
@@ -139,7 +175,11 @@
         "category": "Authentication Components",
         "shortDescription": "A user profile display component.",
         "description": "A user profile component displaying user information. Built with React, it can be used to display user details like name, email, profile picture, and more.",
-        "imageUrl": "/images/user-profile.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/user-profile",
         "techStack": [
             "React"
@@ -153,7 +193,11 @@
         "category": "Dashboards",
         "shortDescription": "A dashboard with widgets and summaries.",
         "description": "A basic dashboard with various widgets and data summaries. Built with React, this component offers a clear view of your data and key performance indicators.",
-        "imageUrl": "/images/basic-dashboard.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/basic-dashboard",
         "techStack": [
             "React",
@@ -168,7 +212,11 @@
         "category": "Dashboards",
         "shortDescription": "A dashboard with customizable widgets.",
         "description": "An advanced dashboard with customizable widgets, graphs, and data summaries. Built with React and Material-UI, this component allows for a high degree of customization.",
-        "imageUrl": "/images/advanced-dashboard.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/advanced-dashboard",
         "techStack": [
             "React",
@@ -184,7 +232,11 @@
         "category": "Shopping Cart",
         "shortDescription": "A shopping cart for adding/viewing items.",
         "description": "A basic shopping cart component that allows users to add and view items. Built with React, this component includes features such as item count and total price calculation.",
-        "imageUrl": "/images/basic-shopping-cart.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/basic-shopping-cart",
         "techStack": [
             "React"
@@ -198,7 +250,11 @@
         "category": "Shopping Cart",
         "shortDescription": "A shopping cart with checkout feature.",
         "description": "An advanced shopping cart component that allows users to add items, view the cart, and checkout. Built with React, this component includes features such as item count, total price calculation, and a checkout form.",
-        "imageUrl": "/images/advanced-shopping-cart.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/advanced-shopping-cart",
         "techStack": [
             "React",
@@ -213,7 +269,11 @@
         "category": "Image Sliders/Carousels",
         "shortDescription": "A carousel for showcasing images.",
         "description": "A basic responsive carousel component for showcasing images. Built with React, this component allows you to display an array of images in a slider format.",
-        "imageUrl": "/images/basic-image-slider.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/basic-image-slider",
         "techStack": [
             "React"
@@ -227,7 +287,11 @@
         "category": "Image Sliders/Carousels",
         "shortDescription": "A carousel for showcasing content cards.",
         "description": "An advanced carousel component for showcasing content cards. Built with React, this component allows you to display an array of content cards in a slider format with advanced features.",
-        "imageUrl": "/images/advanced-content-carousel.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/advanced-content-carousel",
         "techStack": [
             "React",
@@ -242,7 +306,11 @@
         "category": "Progress Bars",
         "shortDescription": "A linear progress bar with animations.",
         "description": "A linear progress bar with animation. This component is built with React and Material-UI and is perfect for indicating progress or loading status.",
-        "imageUrl": "/images/linear-progress-bar.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/linear-progress-bar",
         "techStack": [
             "React",
@@ -257,7 +325,11 @@
         "category": "Progress Bars",
         "shortDescription": "A circular progress bar with animations.",
         "description": "A circular progress bar with animation. This component is built with React and Material-UI and is perfect for indicating progress or loading status in a circular format.",
-        "imageUrl": "/images/circular-progress-bar.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/circular-progress-bar",
         "techStack": [
             "React",
@@ -272,7 +344,11 @@
         "category": "Card Components",
         "shortDescription": "A card for displaying basic information.",
         "description": "A basic card component for displaying information, with an image, title, and description. Built with React and Material-UI, this component is perfect for displaying a brief overview of an item or topic.",
-        "imageUrl": "/images/basic-info-card.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/basic-info-card",
         "techStack": [
             "React",
@@ -287,7 +363,11 @@
         "category": "Card Components",
         "shortDescription": "A card for displaying product information.",
         "description": "An advanced card component for displaying product information, with an image, title, description, and action buttons. Built with React and Material-UI, this component is perfect for displaying a detailed overview of a product.",
-        "imageUrl": "/images/advanced-product-card.jpg",
+        "thumbnails": [
+            "https:1",
+            "https:2",
+            "https:3"
+        ],
         "demoUrl": "/demo/advanced-product-card",
         "techStack": [
             "React",

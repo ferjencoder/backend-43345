@@ -15,7 +15,7 @@ const PORT = process.env.PORT;
 
 const productManager = new ProductManager();
 
-app.get( "/products", async ( req, res ) => {
+app.get( "/api/products", async ( req, res ) => {
 
     try {
         const limit = req.query.limit;
@@ -28,7 +28,7 @@ app.get( "/products", async ( req, res ) => {
 
 } );
 
-app.get( "/product/:id", async ( req, res ) => {
+app.get( "/api/product/:pid", async ( req, res ) => {
 
     try {
         const product = await productManager.getProductById( req.params.id );
@@ -45,7 +45,7 @@ app.get( "/product/:id", async ( req, res ) => {
 
 } )
 
-app.get( "/products/category/:category", async ( req, res ) => {
+app.get( "/api/products/category/:category", async ( req, res ) => {
 
     try {
         const searchedProductsByCategory = await productManager.getProductsByCategory( req.params.category );

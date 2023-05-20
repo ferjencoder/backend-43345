@@ -2,9 +2,10 @@
 
 
 
-import fs from 'fs';
+//import fs from 'fs';
 
 const PRODUCTS_FILE_PATH = './src/01-desafios-entregables/03-desafio/files/products.json';
+
 
 export default class ProductManager {
 
