@@ -1,30 +1,30 @@
 [
     {
+        "id": 1,
         "nombre": "Fernanda",
         "apellido": "Espinosa",
         "edad": 19,
-        "curso": "Community",
-        "id": 1
+        "curso": "Community"
     },
     {
+        "id": 2,
         "nombre": "Juan",
         "apellido": "Espinosa",
         "edad": 34,
-        "curso": "Backend",
-        "id": 2
+        "curso": "Backend"
     },
     {
+        "id": 3,
         "nombre": "Mauricio",
         "apellido": "Espinosa",
         "edad": 21,
-        "curso": "diseno",
-        "id": 3
+        "curso": "diseno"
     },
     {
+        "id": 4,
         "nombre": "Martha",
         "apellido": "Espinosa",
         "edad": 32,
-        "curso": "Frontend",
-        "id": 4
+        "curso": "Frontend"
     }
 ]

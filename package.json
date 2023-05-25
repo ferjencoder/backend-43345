@@ -13,15 +13,21 @@
   },
   "scripts": {
     "test": "jest --watchAll --verbose",
-    "runmon": "nodemon src/01-desafios-entregables/03-desafio/server.js"
+    "start": "node src/01-desafios-entregables/04-primer-entrega/backend/server.js",
+    "server": "nodemon src/01-desafios-entregables/04-primer-entrega/backend/server.js"
   },
   "author": "ferJen",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "nodemon": "^2.0.22"
+    "express-handlebars": "^7.0.7",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
   }
 }
